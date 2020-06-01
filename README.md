@@ -15,11 +15,10 @@ A sua função vai receber três números inteiros como argumentos. O primeiro a
 
 Sua função deve retornar True se a quantidade de folhas compradas pela Diretora é suficiente, ou False caso contrário.
 
-Chamada da função                                              Retorno da função 
+Chamada da função ----------------------------------------->>>>Retorno da função 
 
+avioes_de_papel(10,100,10)--------------------------------->>>>>> True 
 
-avioes_de_papel(10,100,10)                                        True 
+avioes_de_papel(10,90,10)---------------------------------->>>>>> False 
 
-avioes_de_papel(10,90,10)                                         False 
-
-avioes_de_papel(5,40,2)                                           True
+avioes_de_papel(5,40,2)------------------------------------->>>>>> True
