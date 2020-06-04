@@ -55,10 +55,10 @@ Sua função deve retornar um número inteiro que represente o número máximo d
 enviar.
 
 Exemplos:
-Chamada da função ----------------->>>>>  Retorno da função
+Chamada da função --------------->>>>>  Retorno da função
 
-numero_envelopes([5,3,6,2])-------------------------->>>>>       2
+numero_envelopes([5,3,6,2])-------------------------->>>>>      2
 
-numero_envelopes([10,5,21,3,0,11])-------------------->>>>>       0
+numero_envelopes([10,5,21,3,0,11])-------------------->>>>      0
 
 
