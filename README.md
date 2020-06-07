@@ -55,10 +55,44 @@ Sua função deve retornar um número inteiro que represente o número máximo d
 enviar.
 
 Exemplos:
+
 Chamada da função --------------->>>>>  Retorno da função
 
 numero_envelopes([5,3,6,2])-------------------------->>>>>      2
 
 numero_envelopes([10,5,21,3,0,11])-------------------->>>>      0
+
+
+
+QUESTÃO 03
+
+Os computadores foram inventados para realizar cálculos muito rapidamente, e atendem a esse requisito de
+maneira extraordinária. Porém, nem toda conta pode ser feita num computador, pois ele não consegue representar
+todos os números dentro de sua memória. Em um computador pessoal atual, por exemplo, o maior inteiro que é
+possível representar em sua memória é 4.294.967.295. Caso alguma conta executada pelo computador dê um
+resultado acima desse número, ocorrerá o que chamamos de overflow, que é quando o computador faz uma conta
+e o resultado não pode ser representado, por ser maior do que o valor máximo permitido (em
+inglês overflow significa trasbordar). Por exemplo, se um computador só pode representar números menores do que
+1023 e mandamos ele executar a conta 1022 + 5, vai ocorrer overflow .
+
+Você deve escrever uma função chamada OVERFLOW que recebe dois argumentos. O primeiro argumento é um
+número inteiro representando o maior número que um computador consegue representar. O segundo argumento é
+uma string que é construida da seguinte maneira:
+
+-> Começa com um inteiro P, seguido de um espaço em branco, seguido de um caractere C (que pode ser “+”
+ou “*”, representando os operadores de adição e multiplicação, respectivamente), seguido de um espaço
+em branco, seguido de um outro inteiro Q.
+
+-> A string representa a expressão P + Q , se o caractere C for “+”, ou P x Q, se o caractere C for “*”.
+
+A sua função deve retornar True se o resultado da expressão causar um OVERFLOW, ou False caso contrário.
+
+Exemplos:
+
+Chamada da função----------------------->>>Retorno da função
+overflow(10,'5 + 5')--------------->>> True
+overflow(44,'23 * 2')-------------->>> False
+overflow(323500,'42 * 35')--------->>> True
+
 
 
