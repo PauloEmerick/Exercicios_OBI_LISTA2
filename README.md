@@ -98,4 +98,31 @@ overflow(44,'23 * 2')----------------------------->>> False
 overflow(323500,'42 * 35')----------------------->>> True
 
 
+QUESTÃO 04
+
+Parte do treinamento de um novo garçom é carregar uma grande bandeja com várias latas de bebidas e copos e
+entregá-las todas numa mesa do restaurante. Durante o treinamento é comum que os garçons deixem cair as
+bandejas, quebrando todos os copos.
+
+A SBC -- Sociedade Brasileira de Copos -- analisou estatísticas do treinamento de diversos garçons e descobriu
+que os garçons em treinamento deixam cair apenas bandejas que têm mais latas de bebidas que copos. Por
+exemplo, se uma bandeja tiver 10 latas e 4 copos, certamente o garçom em treinamento a deixará cair, quebrando
+os 4 copos. Já se a bandeja tiver 5 latas e 6 copos, ele conseguirá entregá-la sem deixar cair.
+
+Você deve escrever uma função chamada GARCOM que, dado o número de latas e copos em cada bandeja que o
+garçom tentou entregar, imprime o total de copos que ele quebrou.
+
+A sua função vai receber dois argumentos. O primeiro argumento é um inteiro N representando o número de
+bandejas que o garçom tentou entregar. O segundo argumento é uma lista de tamanho N aonde os elementos são
+tuplas representando as bandejas que o garçom carregou, cada tupla contém dois inteiros L e C, indicando o
+número de latas e o número de copos naquela bandeja, respectivamente.
+
+Sua função deve retornar um único inteiro, indicando o número total de copos que o garçom quebrou.
+
+EXEMPLO:
+
+Exemplos:
+Chamada da função---------------------------------->>> Retorno da função
+garcom(3, [(10,5),(6,8),(3,3)])------------------------------->>> 5
+garcom (4, [(10,6),(8,8),(5,1),(100,100)])-------------------------->>> 7
 
