@@ -153,6 +153,9 @@ Sua função deve retornar True caso a bola de boliche caiba dentro da caixa ou 
 EXEMPLOS:
 
 Chamada da função---------------------------->> Retorno da função
+
 sedex(3,2,3,5)----------------------------------------- >>>False
+
 sedex(5,5,5,5)-------------------------------------------->>> True
+
 sedex(9,15,9,10)-------------------------------------------->>> True
