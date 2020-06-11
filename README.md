@@ -128,3 +128,31 @@ garcom(3, [(10,5),(6,8),(3,3)])-------------------------------------->>> 5
 
 garcom (4, [(10,6),(8,8),(5,1),(100,100)])--------------------------->>> 7
 
+
+QUESTÃO 05
+
+A Copa do Mundo de 2010 será realizada na Africa do Sul. Bolas de futebol são muito fáceis de transportar, já que
+elas saem das fábricas vazias e só são enchidas somente pelas lojas ou pelos consumidores finais. Infelizmente o
+mesmo não pode ser dito das bolas de boliche. Como elas são completamente sólidas, elas só podem ser
+transportadas embaladas uma a uma, em caixas separadas.
+
+A SBC -- Só Boliche Cascavel -- é uma fábrica de bolas de boliche que trabalha somente através de encomendas e
+envia todas as bolas por SEDEX. Como as bolas têm tamanhos diferentes, a SBC tem vários tamanhos de caixas
+diferentes para transportá-las.
+
+Escreva uma função chamada SEDEX que, dado o diâmetro de uma bola e as 3 dimensões de uma caixa (altura,
+largura e profundidade), diz se a bola de boliche cabe dentro da caixa ou não.
+
+A sua função vai receber quatro números inteiros como argumentos. O primeiro argumento é um inteiro que indica o
+diâmetro da bola de boliche. O segundo argumento é um inteiro que representa a altura da caixa. O terceiro
+argumento é um inteiro que representa a largura da caixa. O quarto argumento é um inteiro que representa a
+profundidade da caixa.
+
+Sua função deve retornar True caso a bola de boliche caiba dentro da caixa ou False caso contrário.
+
+EXEMPLOS:
+
+Chamada da função---------------------------->> Retorno da função
+sedex(3,2,3,5)----------------------------------------- >>>False
+sedex(5,5,5,5)-------------------------------------------->>> True
+sedex(9,15,9,10)-------------------------------------------->>> True
