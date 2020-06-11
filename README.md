@@ -122,8 +122,7 @@ Sua função deve retornar um único inteiro, indicando o número total de copos
 EXEMPLO:
 
 Exemplos:
-Chamada da função--------------------------
---->>> Retorno da função
+Chamada da função-------------------------->>> Retorno da função
 
 garcom(3, [(10,5),(6,8),(3,3)])-------------------------------------->>> 5
 
