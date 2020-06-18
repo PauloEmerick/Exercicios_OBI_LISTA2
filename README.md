@@ -1,5 +1,4 @@
-# ExerciciosdaOBI2009
-LIsta de exercicio da OBI2009
+# Exercicios
 
 QUESTÃO 01
 
